@@ -83,11 +83,46 @@ export const projects: Project[] = [
   },
 ]
 
+export const academicProjects: Project[] = [
+  {
+    title: 'Simulador de Criptomonedas',
+    description:
+      'Aplicación web desarrollada en equipo para la simulación de compra, venta e intercambio de criptomonedas. El sistema permite administrar saldo virtual, realizar transacciones, consultar historiales y visualizar la evolución de los precios simulados.',
+  tags: ['Java', 'SQL', 'Bootstrap', 'Hibernate', 'JPA', 'Trabajo en equipo'],
+    repoUrl: 'https://github.com/JulianKer/TP-Taller-Web-I',
+    features: [
+      'Registro e inicio de sesión con roles de usuario y administrador',
+      'Compra, venta e intercambio de criptomonedas.',
+      'Simulación de variación de precios en tiempo real.',
+      'Historial de transacciones y generación de reportes.',
+      'Gestión de saldo virtual y cartera de inversiones.',
+      
+    ],
+  },
+  {
+    title: 'Preguntados',
+    description:
+      'Aplicación web multijugador inspirada en el juego Preguntados. Permite a los usuarios registrarse, participar en partidas basadas en preguntas de distintas categorías y consultar estadísticas de juego. Incluye gestión de usuarios, roles administrativos, generación de reportes y paneles con métricas de actividad.',
+    tags: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Apache', 'Mustache', 'PHPMailer', 'dompdf', 'JpGraph', 'Trabajo en equipo'],
+    repoUrl: 'https://github.com/GastonEE01/PW2MVC-PREGUNTADOS.git',
+    features: [
+    'Registro e inicio de sesión de usuarios.',
+    'Sistema de partidas basado en categorías y distintos niveles de dificultad.',
+    'Historial de partidas y estadísticas personales.',
+    'Generación y visualización de códigos QR con información del usuario.',
+    'Creación y reporte de preguntas por parte de los jugadores.',
+    'Panel administrativo para moderación y gestión de preguntas.',
+    'Dashboard con métricas y gráficos de actividad.',
+    'Exportación de reportes en formato PDF.'
+    ],
+  },
+]
+
 export const techStack: { group: string; items: string[] }[] = [
   { group: 'Frontend', items: ['React', 'Vite', 'TypeScript', 'JavaScript', 'React Router', 'CSS'] },
   { group: 'Backend', items: ['C#', '.NET (ASP.NET Core)', 'Entity Framework Core', 'JWT', 'API REST'] },
   { group: 'Base de datos', items: ['PostgreSQL', 'SQL Server', 'Supabase'] },
-  { group: 'Herramientas', items: ['Azure App Service', 'Vercel', 'Git', 'Docker'] },
+  { group: 'Herramientas', items: ['Azure App Service', 'Vercel', 'Git'] },
 ]
 
 export const contact = {

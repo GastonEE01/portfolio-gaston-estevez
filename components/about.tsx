@@ -12,17 +12,13 @@ export function About() {
       <div className="space-y-4 leading-relaxed text-muted-foreground">
         <p>
           Soy <span className="text-foreground">Técnico en Desarrollo Web</span>{' '}
-          formado en la universidad, apasionado por construir aplicaciones
-          fullstack de punta a punta: desde la interfaz en React hasta la API en
-          .NET y el despliegue en la nube.
+          , con formación en desarrollo de aplicaciones web y experiencia práctica mediante proyectos académicos y personales.
         </p>
         <p>
-          Para afianzar lo aprendido desarrollé{' '}
-          <span className="text-foreground">tres proyectos personales</span>{' '}
-          completos, cada uno con autenticación, base de datos e integraciones
-          reales como pagos e inteligencia artificial. Me interesa escribir
-          código prolijo, seguir buenas prácticas y seguir aprendiendo en
-          equipo.
+         Tengo interés en el desarrollo Full Stack, trabajando tanto en la interfaz de usuario como en APIs, bases de datos y despliegue de aplicaciones.
+        </p>
+        <p>
+          Actualmente continúo fortaleciendo mis conocimientos a través de proyectos propios utilizando tecnologías como React, .NET y SQL Server, aplicando buenas prácticas de desarrollo y explorando nuevas herramientas para seguir creciendo profesionalmente.
         </p>
       </div>
     </section>

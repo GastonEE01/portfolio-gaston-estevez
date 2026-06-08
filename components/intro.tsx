@@ -14,8 +14,7 @@ export function Intro() {
         </h2>
         <p className="mt-4 max-w-sm leading-relaxed text-muted-foreground text-pretty">
           Desarrollador fullstack con foco en React y .NET. Busco mi primera
-          experiencia profesional en IT para seguir creciendo y aportar a un
-          equipo.
+          experiencia profesional en desarrollo de software, donde pueda seguir aprendiendo, aportar valor y crecer dentro del un equipo.
         </p>
 
         <nav aria-label="Navegación interna" className="mt-10 hidden lg:block">
