@@ -5,7 +5,7 @@ export function Intro() {
   return (
     <header className="flex flex-col lg:sticky lg:top-0 lg:max-h-screen lg:w-1/2 lg:justify-between lg:py-24">
       <div>
-        <p className="font-mono text-sm text-primary">{'> hola mundo'}</p>
+        <p className="font-mono text-sm text-primary">{}</p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-foreground text-balance sm:text-5xl">
           Gastón Estévez
         </h1>
