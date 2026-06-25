@@ -15,10 +15,13 @@ export function About() {
           , con formación en desarrollo de aplicaciones web y experiencia práctica mediante proyectos académicos y personales.
         </p>
         <p>
-         Tengo interés en el desarrollo Full Stack, trabajando tanto en la interfaz de usuario como en APIs, bases de datos y despliegue de aplicaciones.
+         Me interesa especialmente el desarrollo Full Stack, participando tanto en la construcción de interfaces de usuario como en el desarrollo de APIs, bases de datos y despliegue de aplicaciones.
         </p>
         <p>
-          Actualmente continúo fortaleciendo mis conocimientos a través de proyectos propios utilizando tecnologías como React, .NET y SQL Server, aplicando buenas prácticas de desarrollo y explorando nuevas herramientas para seguir creciendo profesionalmente.
+          Durante mi formación desarrollé proyectos utilizando tecnologías como .NET, React, SQL Server, Entity Framework, JWT y APIs REST, además de realizar despliegues en Azure y Vercel.
+        </p>
+        <p>
+          Actualmente continúo fortaleciendo mis conocimientos a través de proyectos propios, explorando nuevas herramientas y buenas prácticas de desarrollo para seguir creciendo profesionalmente dentro de la industria del software.
         </p>
       </div>
     </section>

@@ -35,6 +35,14 @@ export function Projects() {
                 )}
               </div>
 
+              {project.image && (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="rounded border-2 border-border/50 object-cover w-full aspect-video transition group-hover:border-foreground/30 sm:order-1"
+  loading="lazy"
+                  />
+              )}
               <p className="mt-2 leading-relaxed text-muted-foreground text-pretty">
                 {project.description}
               </p>

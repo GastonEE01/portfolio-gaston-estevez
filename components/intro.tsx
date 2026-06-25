@@ -13,8 +13,7 @@ export function Intro() {
           Técnico en Desarrollo Web
         </h2>
         <p className="mt-4 max-w-sm leading-relaxed text-muted-foreground text-pretty">
-          Desarrollador fullstack con foco en React y .NET. Busco mi primera
-          experiencia profesional en desarrollo de software, donde pueda seguir aprendiendo, aportar valor y crecer dentro del un equipo.
+          Desarrollador Full Stack con experiencia práctica en .NET, React y SQL Server. He desarrollado proyectos personales y académicos enfocados en APIs REST, autenticación JWT, despliegue en Azure y Vercel. Busco mi primera experiencia profesional para seguir creciendo y aportar valor dentro de un equipo de desarrollo.
         </p>
 
         <nav aria-label="Navegación interna" className="mt-10 hidden lg:block">
@@ -23,6 +22,7 @@ export function Intro() {
               { href: '#sobre-mi', label: 'Sobre mí' },
               { href: '#stack', label: 'Stack técnico' },
               { href: '#proyectos', label: 'Proyectos' },
+              { href: '#formacion', label: 'Formación' },
               { href: '#contacto', label: 'Contacto' },
             ].map((item) => (
               <li key={item.href}>
@@ -40,12 +40,7 @@ export function Intro() {
       </div>
 
       <div className="mt-10 flex flex-wrap items-center gap-4">
-        <a
-          href="#proyectos"
-          className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-        >
-          Ver proyectos
-        </a>
+       
         <a
           href="/CV Estevez Gaston 2026.pdf"
           className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"

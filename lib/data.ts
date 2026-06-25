@@ -2,6 +2,7 @@ export type Project = {
   title: string
   description: string
   tags: string[]
+  image?: string
   demoUrl?: string
   apiUrl?: string
   repoUrl?: string
@@ -11,6 +12,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: 'Tienda de Productos',
+    image: '/projects/TiendaProductos.png',
     description:
       'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
     tags: [
@@ -35,6 +37,7 @@ export const projects: Project[] = [
   },
   {
     title: 'App de Películas',
+    image: '/projects/AppPeliculas.png',
     description:
       'App fullstack para gestionar un catálogo de películas, registrarse y administrar una lista de favoritos en la nube, con recomendaciones por IA.',
     tags: [
@@ -59,6 +62,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Dashboard Personal con Widgets',
+    image: '/projects/DashboardPersonal.png',
     description:
       'App web donde el usuario se registra, inicia sesión y personaliza su dashboard agregando widgets interactivos que puede arrastrar y acomodar.',
     tags: [

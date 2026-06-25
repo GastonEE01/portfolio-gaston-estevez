@@ -2,6 +2,7 @@ import { Intro } from '@/components/intro'
 import { About, Stack } from '@/components/about'
 import { Projects } from '@/components/projects'
 import { Contact } from '@/components/contact'
+import { Training } from '@/components/training'
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
           <About />
           <Stack />
           <Projects />
+          <Training />
           <Contact />
           <footer className="border-t border-border pt-6 font-mono text-xs text-muted-foreground">
             Hecho con React, Next.js y Tailwind CSS · {new Date().getFullYear()}
