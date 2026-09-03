@@ -1,2 +1,2 @@
 🔗 Enlaces del portfolio
- Verce: https://portfolio-gaston-estevez.vercel.app/
+ Vercel: https://portfolio-gaston-estevez.vercel.app/
