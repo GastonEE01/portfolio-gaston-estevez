@@ -11,28 +11,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Tienda de Productos',
-    image: '/projects/TiendaProductos.png',
+    title: 'Gestión de Turnos',
+    image: '/projects/GestionDeTurnos.png', // O la ruta de tu captura
     description:
-      'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
+      'Aplicación fullstack para la administración de locales, servicios y reserva de turnos online con validación de horarios de atención en tiempo real.',
     tags: [
       'React',
       'Vite',
       '.NET',
       'EF Core',
-      'Mercado Pago',
+      'Tailwind CSS',
       'Azure',
-      'Vercel',
     ],
-    demoUrl: 'https://tienda-de-productos-ivory.vercel.app/',
+    demoUrl: 'https://gestion-de-turnos-zeta.vercel.app/', // Pítale tu link de Vercel si lo tenés deployado
     apiUrl:
-      'https://tiendadeproductos-fmhngcc8czgjd9dk.brazilsouth-01.azurewebsites.net/api/product',
-    repoUrl: 'https://github.com/GastonEE01/TiendaDeProductos.git',
+      'https://gestiondeturnos-bkg7cpgtcucah7hy.brazilsouth-01.azurewebsites.net/',
+    repoUrl: 'https://github.com/GastonEE01/GestionDeTurnos.git',
     features: [
-      'Listado, búsqueda por nombre y filtro por categoría',
-      'Carrito de compras con cálculo del total',
-      'Modo oscuro / claro y persistencia con localStorage',
-      'Notificaciones e integración de checkout con Mercado Pago',
+      'Registro de locales, categorías y horarios de atención por día',
+      'Gestión de servicios con duración personalizada',
+      'Sistema de reservas con validación automática de disponibilidad',
+      'Panel para locales para visualizar y cancelar turnos recibidos',
     ],
   },
   {
