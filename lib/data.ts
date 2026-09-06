@@ -60,6 +60,30 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: 'Tienda de Productos',
+    image: '/projects/TiendaProductos.png',
+    description:
+      'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
+    tags: [
+      'React',
+      'Vite',
+      '.NET',
+      'EF Core',
+      'Mercado Pago',
+      'Azure',
+    ],
+    demoUrl: 'https://tienda-de-productos-ivory.vercel.app/',
+    apiUrl:
+      'https://tiendadeproductos-fmhngcc8czgjd9dk.brazilsouth-01.azurewebsites.net/api/product',
+    repoUrl: 'https://github.com/GastonEE01/TiendaDeProductos.git',
+    features: [
+      'Listado, búsqueda por nombre y filtro por categoría',
+      'Carrito de compras con cálculo del total',
+      'Modo oscuro / claro y persistencia con localStorage',            
+      'Notificaciones e integración de checkout con Mercado Pago',
+    ],
+  },
+  {
     title: 'Dashboard Personal con Widgets',
     image: '/projects/DashboardPersonal.png',
     description:
