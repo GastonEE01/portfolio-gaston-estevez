@@ -74,7 +74,7 @@ export const projects: Project[] = [
     ],
     demoUrl: 'https://tienda-de-productos-ivory.vercel.app/',
     apiUrl:
-      'https://tiendadeproductos-fmhngcc8czgjd9dk.brazilsouth-01.azurewebsites.net/api/product',
+      'https://mercadoexpress-e0b6gqgkewa2echt.brazilsouth-01.azurewebsites.net/index.html',
     repoUrl: 'https://github.com/GastonEE01/TiendaDeProductos.git',
     features: [
       'Listado, búsqueda por nombre y filtro por categoría',
