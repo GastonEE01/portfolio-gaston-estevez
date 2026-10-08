@@ -38,7 +38,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: 'Tienda de Productos',
+    title: 'Mercado Express',
     image: '/projects/TiendaProductos.png',
     description:
       'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
