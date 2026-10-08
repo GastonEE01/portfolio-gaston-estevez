@@ -11,6 +11,59 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: 'Finova',
+    image: '/projects/Finova.png',
+    description:
+      'Aplicación fullstack de gestión de finanzas personales que permite administrar cuentas en múltiples monedas, registrar ingresos y gastos, visualizar métricas avanzadas en un dashboard interactivo, y configurar presupuestos y metas de ahorro con asistencia de inteligencia artificial.',
+    tags: [
+      'Next.js',
+      'React',
+      'MUI',
+      '.NET',
+      'EF Core',
+      'PostgreSQL',
+      'Gemini IA',
+      'Azure',
+      'Vercel',
+    ],
+    demoUrl: 'https://finova-coral.vercel.app/',
+    apiUrl:
+      'https://finovaapi-e2gse6bfhce5akep.brazilsouth-01.azurewebsites.net/swagger/index.html',
+    repoUrl: 'https://github.com/GastonEE01/Finova.git',
+    features: [
+      'Gestión de cuentas en múltiples monedas con saldo calculado automáticamente',
+      'Dashboard interactivo con gráficos, comparativas y evolución del saldo',
+      'Control de presupuestos por categoría y metas de ahorro vinculadas',
+      'Asistente financiero inteligente integrado con IA',
+    ],
+  },
+  {
+    title: 'Tienda de Productos',
+    image: '/projects/TiendaProductos.png',
+    description:
+      'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
+    tags: [
+      'React',
+      'Vite',
+      'MUI',
+      '.NET',
+      'EF Core',
+      'Mercado Pago',
+      'Azure',
+      'Vercel',
+    ],
+    demoUrl: 'https://tienda-de-productos-ivory.vercel.app/',
+    apiUrl:
+      'https://mercadoexpress-e0b6gqgkewa2echt.brazilsouth-01.azurewebsites.net/index.html',
+    repoUrl: 'https://github.com/GastonEE01/TiendaDeProductos.git',
+    features: [
+      'Listado, búsqueda por nombre y filtro por categoría',
+      'Carrito de compras con cálculo del total',
+      'Modo oscuro / claro y persistencia con localStorage',            
+      'Notificaciones e integración de checkout con Mercado Pago',
+    ],
+  },
+  {
     title: 'Gestión de Turnos',
     image: '/projects/GestionDeTurnos.png', // O la ruta de tu captura
     description:
@@ -22,6 +75,7 @@ export const projects: Project[] = [
       'EF Core',
       'Tailwind CSS',
       'Azure',
+      'Vercel',
     ],
     demoUrl: 'https://gestion-de-turnos-zeta.vercel.app/', // Pítale tu link de Vercel si lo tenés deployado
     apiUrl:
@@ -47,6 +101,7 @@ export const projects: Project[] = [
       'JWT',
       'Gemini AI',
       'Azure',
+      'Vercel',
     ],
     demoUrl: 'https://app-peliculas-three.vercel.app/',
     apiUrl:
@@ -59,30 +114,7 @@ export const projects: Project[] = [
       'ChatBot de recomendaciones con integración de Gemini AI',
     ],
   },
-  {
-    title: 'Tienda de Productos',
-    image: '/projects/TiendaProductos.png',
-    description:
-      'Aplicación fullstack de e-commerce: visualizar productos, filtrarlos, buscarlos y agregarlos a un carrito de compras, con integración de pagos mediante Mercado Pago.',
-    tags: [
-      'React',
-      'Vite',
-      '.NET',
-      'EF Core',
-      'Mercado Pago',
-      'Azure',
-    ],
-    demoUrl: 'https://tienda-de-productos-ivory.vercel.app/',
-    apiUrl:
-      'https://mercadoexpress-e0b6gqgkewa2echt.brazilsouth-01.azurewebsites.net/index.html',
-    repoUrl: 'https://github.com/GastonEE01/TiendaDeProductos.git',
-    features: [
-      'Listado, búsqueda por nombre y filtro por categoría',
-      'Carrito de compras con cálculo del total',
-      'Modo oscuro / claro y persistencia con localStorage',            
-      'Notificaciones e integración de checkout con Mercado Pago',
-    ],
-  },
+  
   {
     title: 'Dashboard Personal con Widgets',
     image: '/projects/DashboardPersonal.png',
@@ -96,6 +128,7 @@ export const projects: Project[] = [
       'EF Core',
       'PostgreSQL',
       'Azure',
+      'Vercel',
     ],
     demoUrl: 'https://dashbooard-personal.vercel.app/',
     apiUrl:
