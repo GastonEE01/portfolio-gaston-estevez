@@ -26,7 +26,7 @@ export const projects: Project[] = [
       'Azure',
       'Vercel',
     ],
-    demoUrl: 'https://finova-coral.vercel.app/',
+    demoUrl: 'https://finova-coral.vercel.app/bienvenida',
     apiUrl:
       'https://finovaapi-e2gse6bfhce5akep.brazilsouth-01.azurewebsites.net/swagger/index.html',
     repoUrl: 'https://github.com/GastonEE01/Finova.git',
